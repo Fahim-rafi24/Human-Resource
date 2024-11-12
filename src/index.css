@@ -1,0 +1,28 @@
+/* tailwind css import thinks */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* google font family thinks */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap');
+
+
+/* font id Start */
+#pacifico {
+    font-family: "Pacifico", cursive;
+}
+
+#inter {
+    font-family: "Inter", serif;
+}
+
+/* font id End */
+
+
+/* NavLink Active class */
+.active{
+    color: purple;
+    border-bottom: 1px dotted;
+    font-weight: 400;
+}
